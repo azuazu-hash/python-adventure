@@ -53,3 +53,19 @@ elif (decision == "2"):
     print("Your items now: ")
     print(player_items)
 #            ---section end---           #
+
+
+
+#Section author: Aziza
+print("What do we need to do to finish ziyotek successfully?")
+print("1. Sleep less,Don't Freak Out, practice more!!")
+print("2. Nothing)) ")
+decision = input("Pick a number")
+if (decision == "1"):
+    print("You get good job and great future!!")
+    exit()
+elif (decision == "2"):   
+    player_money = player_money * 0.1
+    print("You gonna miss Ziyotek and owes:")
+    print(str(player_money) + "dollar")
+      
