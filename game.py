@@ -67,5 +67,6 @@ if (decision == "1"):
 elif (decision == "2"):   
     player_money = player_money * 0.1
     print("You gonna miss Ziyotek and owes:")
-    print(str(player_money) + "dollar")
-      
+    print(str(player_money) +  " " + "dollar")
+
+    # End section #      
